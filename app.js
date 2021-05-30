@@ -1,10 +1,12 @@
-var orange = 100;
-var apple = 120;
+ // メイン部分
+var alertString;
+alertString = addString("WebCamp");
 
-if(orange < apple){
-  alert('みかんの値段がりんごより安い');
-} else if(orange == apple){
-  alert('みかんとりんごが同じ値段');
-} else{
-  alert('みかんの値段がりんごより高い');
+// 作成した関数を呼び出す
+alert(alertString);
+
+// 作成した関数
+function addString(strA){
+  var addStr = "Hello " + strA;
+  return addStr;
 }
